@@ -1,12 +1,11 @@
-namespace Utils
+namespace Utils;
+
+public enum TransportEnum
 {
-    public enum TransportEnum
-    {
-        Foot,
-        Bus,
-        Train,
-        Car,
-        Boat
-    }
+    Foot,
+    Bus,
+    Train,
+    Car,
+    Boat
 }
 

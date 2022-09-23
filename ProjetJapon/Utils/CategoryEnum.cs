@@ -1,10 +1,9 @@
-namespace Utils
+namespace Utils;
+
+public enum CategoryEnum
 {
-    public enum CategoryEnum
-    {
-        Eat,
-        Culture,
-        Activity,
-        City
-    }
+    Eat,
+    Culture,
+    Activity,
+    City
 }

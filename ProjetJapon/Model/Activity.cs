@@ -4,7 +4,7 @@ namespace Model
     {
         // Faire des TU pour voir si la liste marche
         private Dictionary<string, double> rangeOfPrices = new Dictionary<string, double> ();
-        public Dictionary<string, double> RangeOfPrices { get => rangeOfPrices; set => rangeOfPrices = value; }
+        public Dictionary<string, double> RangeOfPrices { get => rangeOfPrices;}
 
 
         public Activity(Accessibility accessibility, string description, string name, List<string> pictures, string coordinates) 

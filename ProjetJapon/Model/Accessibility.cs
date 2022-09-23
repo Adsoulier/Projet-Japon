@@ -7,7 +7,7 @@ namespace Model
     {
         private List<TransportEnum>? transports;
 
-        public List<TransportEnum> Transports { get => transports; set => transports = value; }
+        public List<TransportEnum> Transports { get => transports; private set => transports = value; }
 
         public Accessibility(IEnumerable<TransportEnum>? transports){
             if (transports != null && transports.Count() != 0)

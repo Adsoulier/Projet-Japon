@@ -8,5 +8,6 @@ namespace Utils
         Pizza,
         FastFood,
         Vegan,
+        AllYouCanEat
     }
 }
