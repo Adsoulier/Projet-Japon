@@ -24,7 +24,8 @@ namespace Model
             this.accessibility = accessibility;
             this.description = description;
             this.name = name;
-            this.pictures.AddRange(pictures);
+            if(pictures != null)
+                this.pictures.AddRange(pictures);
         }
     }
 

@@ -17,6 +17,13 @@ namespace Model
         public Prefecture(Accessibility accessibility, string description, string name, List<string> pictures) 
         : base(accessibility, description, name, pictures)
         {
+            
+        }
+
+        public Prefecture(Accessibility accessibility, string description, string name, List<string> pictures, List<PointOfInterest> pointsofInterest) 
+        : base(accessibility, description, name, pictures)
+        {
+            this.PointsOfInterest.AddRange(pointsOfInterest);
         }
     }
 }
